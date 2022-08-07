@@ -1,0 +1,433 @@
+<script>
+   
+   a = 7;
+
+
+console. log(a)
+
+var a = 5;
+var b = 10;
+var c = "I am a";
+
+
+
+a = a + 1;
+b = b + 5;
+c = c + "string!"
+
+console. log(c)
+console. log(b)
+console. log(a)
+
+var minus = 10 - 100;
+
+console. log(minus)
+
+var multiplication = 10 * 80;
+
+console. log(multiplication)
+
+
+var division = 11 / 3;
+console .log(division)
+
+var remainder;
+remainder = 11 % 3;
+
+var a = 5;
+
+a *= 5;
+
+console .log(a)
+
+var myStr = 'I am a "double quoted"string inside "double quotes"';
+console .log(myStr)
+
+var myBoo= "Esther";
+var sheIs = "Hi " + myBoo + " hope you are good!";
+
+console .log(sheIs)
+
+var hey = "worthwhile";
+var hi = "learning to code is ";
+
+hi += hey;
+
+console .log(hi)
+var lastname ="cry"
+lastnamelength = lastname. length
+console .log(lastnamelength)
+
+var z = 12
+
+z += 18;
+
+console .log(z)
+
+var myStr = "Israel ";
+var hisStr = "His name is ";
+
+hisStr  +=  myStr;
+console .log(hisStr)
+
+var firstname = "Henry ";
+
+firstletteroflastname = firstname[0];
+console .log(firstletteroflastname)
+
+var myStr = "Jello world";
+
+myStr = "Hello world";
+
+console .log(myStr)
+
+var lastname = "lovelace";
+
+var lastletteroflastname = lastname[lastname.length - 1]
+
+console .log(lastletteroflastname)
+
+var myArray = ["Quincy", 1];
+
+console .log(myArray)
+
+var myArray = [["Bulls",23], ["White Sox, 11"]];
+console .log(myArray)
+
+var myArray = [50,60,70];
+myData = myArray[2]
+console .log(myData)
+
+var myArray = [18,64,99];
+myArray[0] = 45;
+console .log(myArray)
+
+var myArray = [[1,2,3], [4,5,6], [7,8,9]];
+
+var myData = myArray[1][2];
+console .log(myData)
+
+var myArray = [["John", 23], ["cat", 2]];
+myArray.push(["dog", 4])
+console .log(myArray)
+
+
+var myArray = [["John", 23], ["cat", 2]];
+var removedFromMyarray = myArray.pop();
+
+console .log(myArray)
+
+function reuseableFunction(){
+    console. log("Hi world");
+}
+reuseableFunction();
+
+function ourfunctionwithArgs(a, b){
+    console.log(a-b);
+    
+}
+ourfunctionwithArgs(20,40);
+
+ function element(){
+     console.log("Adanu");
+ }
+ element();
+
+ var a = "mufty";
+ function outfit(){
+     var a = "jeans";
+     return a;
+ }
+ console.log(outfit());
+ console.log(a);
+
+ function trueorfalsestatements(wasthattrue){
+     if(wasthattrue){
+         return "yes, that was true";
+     }
+     return "no, that was false";
+
+ }
+ console.log((trueorfalsestatements(true)));
+
+ function testequal(val){
+     if(val==12){
+         return "equal";
+     }
+     return "not equal";
+ }
+ console.log(testequal(12));
+
+ function teststrict(val){
+     if(val===12){
+         return "equal";
+     }
+     return "not equal";
+ }
+ console.log(teststrict('12'));
+
+ function testnotequal(val){
+     if(val != 99){
+         return "not equal";
+     }
+     return "equal";
+ }
+ console.log(testnotequal(99));
+
+ function testgreaterthan(val){
+     if(val>12){
+         return "over 12";
+     }
+     return "12 or under";
+ }
+ console.log(testgreaterthan(120));
+
+ function testelse(val){
+     var result=""
+
+     if(val>12){
+         result ="not equal";
+     }
+     else{
+        result = "bigger than 12";
+     } 
+     return result;
+ }
+ console.log(testelse(12));
+
+ function testelseif(val) {
+     if (val>10) {
+         return "greater than 10";
+     }
+     else if (val<5) {
+         return "smaller than 5";
+     } 
+     else {
+        return "between 5 and 10 ";
+     }
+    
+ }
+ console.log(testelseif(2));
+ function ordermylogic(val) {
+     if (val<5) {
+         return "less than 5";
+     }
+     else if (val<10) {
+         return "smaller than 10";
+     } 
+     else {
+        return "greater than or equal to 10 ";
+     }
+    
+ }
+ console.log(ordermylogic(3));
+
+ function testsize(num) {
+     if (num<5) {
+         return "tiny";
+     }
+     else if (num<10) {
+         return "small";
+     } 
+     else if (num<15){
+        return "medium";
+     }
+     else if (num<20){
+        return "large";
+     }
+     else {
+        return "huge";
+     }
+ }
+ console.log(testsize(25));
+
+ function caseswitch(val){
+     var answer=""
+     switch(val){
+         case 1:
+             answer="alpha";
+             break;
+        case 2:
+            answer="beta";
+            break;
+        case 3:
+            answer="gamma";
+            break;
+        case 4:
+            answer="omega";
+            break;
+     }
+     return answer;
+ }
+ console.log(caseswitch(4));
+
+ function switchofstuff(val){
+     var answer=""
+     switch(val){
+         case "a":
+             answer="alpha";
+             break;
+        case "b":
+            answer="beta";
+            break;
+        case "c":
+            answer="gamma";
+            break;
+        case "d":
+            answer="omega";
+            break;
+        default:
+            answer="stuff";
+            break;
+     }
+     return answer;
+ }
+ console.log(switchofstuff(a));
+
+ var count="0"
+ function cc(card){
+     switch(card){
+         case 2:
+        case 3:
+        case 4:
+        case 5:
+        case 6:
+            count++;
+            break;
+         case 10:
+        case "J":
+        case "Q":
+        case "K":
+        case "A":
+            count--;
+            break;
+        
+     }
+     var holdbet='hold'
+     if (count>0){
+         holdbet='bet'
+     }
+     return count + " " + holdbet ;
+ }
+ cc(2); cc('K'); cc('10'); cc('Q'); cc('A')
+ console.log(cc(4))
+
+
+ var mydog={
+     "name":"Quincy",
+     "legs":3,
+     "tails":2,
+     "friends":[],
+     
+ }
+ console.log(mydog)
+
+ var testobj = {
+     "hat": "ballcap",
+     "shirt": "jersey",
+     "shoes" : "cleats"
+
+ };
+
+ var hatvalue = testobj.hat;
+ console.log(hatvalue);
+
+ var testobj={
+     12:"namath",
+     16:"montana",
+     19:"unitas"
+ };
+ var playernumber=19
+ var player=testobj[playernumber];
+ console.log(player)
+
+ var mydog={
+     "name":"Quincy",
+     "legs":3,
+     "tails":2,
+     "friends":[],
+     
+ }
+ mydog['bark']="woof!"
+ console.log(mydog)
+
+ var mydog={
+     "name":"Quincy",
+     "legs":3,
+     "tails":2,
+     "friends":[],
+     
+ }
+ mydog.name="Happy Coder"
+ console.log(mydog)
+
+ var mydog={
+     "name":"Quincy",
+     "legs":3,
+     "tails":2,
+     "friends":[],
+     "bark":"bow-wow"
+     
+ }
+ delete mydog.tails
+ console.log(mydog)
+
+ var mystorage = {
+     "car": {
+         "inside": {
+             "glovebox":"maps",
+             "passenger seat":"crumbs"
+         },
+         "outside": {
+             "trunk": "jack"
+         }
+     }
+ };
+ var trunkcontents = mystorage.car.outside["trunk"];
+ console.log(trunkcontents)
+
+ var myplants=[
+     {
+         type:"flowers",
+         list:[
+             "rose",
+             "tulip",
+             "dandelion"
+         ]
+     },
+     {
+         type:"trees",
+         list:[
+             "fir",
+             "pine",
+             "birch"
+         ]
+     }
+ ];
+ var firstflower=myplants[0].list[0]
+ console.log(firstflower);
+
+
+ var myarray=[];
+
+ var i=2;
+
+ while (i<5){
+    myarray.push(i);
+    i++;
+ }
+ console.log(myarray)
+
+ var myarray=[];
+ for (var i=1; i<4; i++){
+     myarray.push(i);
+ }
+ console.log(myarray)
+
+ var myarray=[];
+
+ for(var i=1; i<10; i+=2){
+    myarray.push(i);
+}
+console.log(myarray);
+</script> 
